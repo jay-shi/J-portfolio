@@ -1,11 +1,16 @@
 language: node_js
 node_js:
- — “8.9.1”
+  - "8.9.1"
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm i -g firebase-tools
+
 script:
-	- echo "Deploying"
-deploy:
-	provide: firebase
-	token:
-		secure: $FIREBASE_TOKEN
-	project: js-portfolio
-	skip_cleanup: true
+  - echo "Deploying to firebase"
+
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
