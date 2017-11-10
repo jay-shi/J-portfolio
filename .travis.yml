@@ -1,9 +1,8 @@
 script:
 	- echo "Deploying"
-
 deploy:
 	provide: firebase
 	token:
 		secure: $FIREBASE_TOKEN
-	project: $FIREBASE_PROJECT
+	project: js-portfolio
 	skip_cleanup: true
