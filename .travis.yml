@@ -1,0 +1,9 @@
+script:
+	- echo "Deploying"
+
+deploy:
+	provide: firebase
+	token:
+		secure: $FIREBASE_TOKEN
+	project: $FIREBASE_PROJECT
+	skip_cleanup: true
