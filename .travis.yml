@@ -9,8 +9,5 @@ branches:
 before_script:
   - npm i -g firebase-tools
 
-script:
-  - echo "Deploying to firebase"
-
 after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
+  - firebase deploy --project $FIREBASE_PROJECT --token $FIREBASE_TOKEN
