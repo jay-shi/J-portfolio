@@ -1,0 +1,31 @@
+[debug] [2017-11-11T01:11:26.250Z] ----------------------------------------------------------------------
+[debug] [2017-11-11T01:11:26.252Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --token 1/5LcabaAoFsXR6cni7Fz4LcxxQzny03YeRABnCww6BIk --project jayshi-portfolio
+[debug] [2017-11-11T01:11:26.253Z] CLI Version:   3.9.2
+[debug] [2017-11-11T01:11:26.253Z] Platform:      darwin
+[debug] [2017-11-11T01:11:26.253Z] Node Version:  v8.2.1
+[debug] [2017-11-11T01:11:26.253Z] Time:          Fri Nov 10 2017 20:11:26 GMT-0500 (EST)
+[debug] [2017-11-11T01:11:26.253Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-11T01:11:26.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-11T01:11:26.266Z] > authorizing via --token option
+[debug] [2017-11-11T01:11:26.267Z] > refreshing access token with scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-11T01:11:26.268Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/5LcabaAoFsXR6cni7Fz4LcxxQzny03YeRABnCww6BIk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform' } 
+ Fri Nov 10 2017 20:11:26 GMT-0500 (EST)
+[debug] [2017-11-11T01:11:26.466Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T01:11:26.467Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/jayshi-portfolio  
+ Fri Nov 10 2017 20:11:26 GMT-0500 (EST)
+[debug] [2017-11-11T01:11:26.771Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T01:11:26.772Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/jayshi-portfolio/tokens  
+ Fri Nov 10 2017 20:11:26 GMT-0500 (EST)
+[debug] [2017-11-11T01:11:27.140Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'jayshi-portfolio'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2017-11-11T01:11:28.526Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/jayshi-portfolio/uploads/-KyccPZyZMfx-bezxHTZ?fileCount=372&message=  
+ Fri Nov 10 2017 20:11:28 GMT-0500 (EST)
