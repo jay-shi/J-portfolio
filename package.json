@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "a portfolio that demonstrates projects that i have worked on",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jay-shi/J-portfolio.git"
+  },
+  "scripts":{
+    "test": "mocha"
   },
   "author": "Jay Shi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jay-shi/J-portfolio/issues"
   },
-  "homepage": "https://github.com/jay-shi/J-portfolio#readme"
+  "homepage": "https://github.com/jay-shi/J-portfolio#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
