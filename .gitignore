@@ -5,7 +5,9 @@ node_modules/*
 **/*.map
 **/.sass-cache
 
-package-lock.json
-
-#editor
+# editor
 .DS_Store
+
+# log files
+**/*.log
+package-lock.json
