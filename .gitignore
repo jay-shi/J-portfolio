@@ -1,0 +1,11 @@
+# node modules
+node_modules/*
+
+# sass
+**/*.map
+**/.sass-cache
+
+package-lock.json
+
+#editor
+.DS_Store

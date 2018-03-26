@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/jay-shi/J-portfolio.git"
   },
-  "scripts":{
+  "scripts": {
     "test": "mocha"
   },
   "author": "Jay Shi",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/jay-shi/J-portfolio#readme",
   "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "grunt": "^1.0.2"
   }
 }
