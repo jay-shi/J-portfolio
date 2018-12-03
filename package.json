@@ -20,9 +20,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "local-web-server": "^2.6.0",
-    "mocha": "^4.0.1"
-  },
-  "dependencies": {
+    "mocha": "^4.0.1",
     "grunt": "^1.0.2"
   }
 }
