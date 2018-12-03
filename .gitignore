@@ -6,7 +6,7 @@ node_modules/*
 **/.sass-cache
 
 # editor
-.DS_Store
+**/.DS_Store
 
 # log files
 **/*.log

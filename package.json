@@ -5,10 +5,10 @@
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jay-shi/J-portfolio.git"
+    "url": "https://github.com/jay-shi/J-portfolio.git"
   },
   "scripts": {
-    "test": "mocha"
+    "host": "ws"
   },
   "author": "Jay Shi",
   "license": "ISC",
@@ -19,9 +19,8 @@
   "devDependencies": {
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "mocha": "^4.0.1"
-  },
-  "dependencies": {
+    "local-web-server": "^2.6.0",
+    "mocha": "^4.0.1",
     "grunt": "^1.0.2"
   }
 }
