@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "a portfolio that demonstrates projects that i have worked on",
+  "description": "A portfolio website that demonstrates projects that I have worked on",
   "main": "index.html",
   "repository": {
     "type": "git",
@@ -16,11 +16,5 @@
     "url": "https://github.com/jay-shi/J-portfolio/issues"
   },
   "homepage": "https://github.com/jay-shi/J-portfolio#readme",
-  "devDependencies": {
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "local-web-server": "^2.6.0",
-    "mocha": "^4.0.1",
-    "grunt": "^1.0.2"
-  }
+  "devDependencies": {}
 }
